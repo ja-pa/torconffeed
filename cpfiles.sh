@@ -42,7 +42,7 @@ copy_from_pc()
 }
 
 
-cd src
+cd net/tor-conf/files
 
 if [ ! -e tor.conf ] || [ ! -e tor.sh ]; then
 	echo "Error! Script called from wrong directory!"
