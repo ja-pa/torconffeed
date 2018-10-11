@@ -56,7 +56,7 @@ define Package/$(PKG_NAME)/install
 	$(INSTALL_BIN) ./files/tor-helper.py $(1)/usr/bin/tor-helper.py
 
 	$(INSTALL_DIR) $(1)/etc/config
-	$(INSTALL_BIN) ./files/tor-conf $(1)/etc/config/tor
+	$(INSTALL_BIN) ./files/tor.conf $(1)/etc/config/tor
 endef
 
 #define Package/$(PKG_NAME)/postinst
