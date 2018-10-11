@@ -26,7 +26,7 @@ define Package/tor-conf
 	CATEGORY:=Network
 	SUBMENU:=IP Addresses and Names
 	TITLE:=Tor uci configuration
-	DEPENDS:=+python
+	DEPENDS:=+python +python-base +python-stem +tor
 endef
 
 #DEPENDS:=+python +tor +python-stem
